@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('.scrollup').click(function() {      // When arrow is clicked
         $('html, body').animate({
             scrollTop : 0                       // Scroll to top of body
-        }, 500);
+        }, 1000);
         return false;
     });
 
