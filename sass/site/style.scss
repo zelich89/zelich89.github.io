@@ -323,7 +323,6 @@ a {
   }
 }
 
-.fadeInUpZ {
-  -webkit-animation-name: fadeInUpZ;
-  animation-name: fadeInUpZ;
+.animated {
+  animation: fadeInUpZ .2s ease;
 }
