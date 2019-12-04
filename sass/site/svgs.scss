@@ -1,0 +1,56 @@
+/*
+.soc-icon {
+  width: 24px;
+  height: 24px;
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+*/
+
+
+.close {
+  svg {
+    width: $close;
+    height: $close;
+  }
+}
+
+.burger {
+  svg {
+    width: $burger-w;
+    height: $burger-h
+  }
+}
+
+.icons {
+  width: 48px;
+  height: 32px;
+}
+
+.follow {
+  width: 16px;
+  height: 16px;
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.soc-icon {
+   svg {
+     width: $soc-icon-size;
+     height: $soc-icon-size;
+   }
+ }
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+.soc-item {
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}

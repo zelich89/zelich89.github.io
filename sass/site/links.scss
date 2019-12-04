@@ -1,0 +1,44 @@
+body {
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover, &:focus, &:active, &:visited {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.menu-link {
+  text-decoration: none;
+  &:hover {
+    background-color: darkolivegreen;
+    transition: background-color .2s ease;
+    &:hover {
+      background-color: #8e8e93;
+    }
+  }
+}
+
+.menu-item:hover {
+  background-color: #8e8e93;
+}
+
+.link-text-white {
+  color: white !important;
+  &:focus, &:active, &:visited {color: inherit}
+  &:hover{
+    color: floralwhite !important;
+    background-color: #8e8e93;
+    //color: darken($dark, 20%) !important;
+  }
+}
+
+.link-text-dark {
+  color: #4a4a4a !important;
+  &:focus, &:active, &:visited {color: inherit}
+  &:hover{
+    color: #3f3f3f !important;
+    //color: darken($dark, 20%) !important;
+  }
+}
